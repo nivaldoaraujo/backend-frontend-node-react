@@ -1,0 +1,130 @@
+/* ==========================================
+   FORMULÁRIO
+   ========================================== */
+
+.formulario {
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+    margin-bottom: 40px;
+}
+
+.formulario h2 {
+    margin-bottom: 25px;
+}
+
+
+/* CAMPOS */
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+.campo input {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+.campo input:focus {
+    border-color: #2563eb;
+}
+
+
+/* BOTÕES */
+
+.botoes {
+    display: flex;
+
+    gap: 10px;
+}
+
+
+/* BOTÃO PADRÃO */
+
+.botao {
+    border: none;
+
+    padding: 10px 16px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    margin-right: 5px;
+}
+
+
+/* SALVAR */
+
+.salvar {
+    background-color: #2563eb;
+
+    color: white;
+}
+
+.salvar:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* CANCELAR */
+
+.cancelar {
+    background-color: #64748b;
+
+    color: white;
+}
+
+.cancelar:hover {
+    background-color: #475569;
+}
+
+
+/* EDITAR */
+
+.editar {
+    background-color: #f59e0b;
+
+    color: white;
+}
+
+.editar:hover {
+    background-color: #d97706;
+}
+
+
+/* EXCLUIR */
+
+.excluir {
+    background-color: #dc2626;
+
+    color: white;
+}
+
+.excluir:hover {
+    background-color: #b91c1c;
+}
